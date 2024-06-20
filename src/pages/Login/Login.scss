@@ -1,0 +1,36 @@
+.login {
+  &__form {
+    h2 {
+      font-weight: 600;
+      font-size: 35px;
+    }
+    width: 400px;
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    margin: 100px auto;
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa4;
+    outline: none;
+    border-radius: 8px;
+  }
+
+  button {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid transparent;
+    background-color: grey;
+    color: white;
+    border-radius: 8px;
+  }
+  button:disabled {
+    opacity: 0.3;
+  }
+}

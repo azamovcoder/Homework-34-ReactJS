@@ -1,0 +1,28 @@
+.header {
+  background-color: #aaa3;
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+  }
+
+  &__nav__logo-icon {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  &__nav__list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__nav__item-link {
+    font-size: 20px;
+  }
+  &__nav__item-link.active {
+    opacity: 0.5;
+  }
+}

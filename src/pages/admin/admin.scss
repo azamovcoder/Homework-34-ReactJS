@@ -1,0 +1,46 @@
+.admin {
+  form {
+    width: 500px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 35px;
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px grey;
+    padding: 20px;
+    button {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid transparent;
+      background-color: grey;
+      color: white;
+      border-radius: 5px;
+      grid-column: span 2;
+      margin-top: 50px;
+    }
+    button:disabled {
+      opacity: 0.3;
+    }
+  }
+
+  &__logOut {
+    display: block;
+    width: 100px;
+    padding: 10px 0px;
+  }
+  input {
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border: 1px solid #aaa5;
+    border-radius: 5px;
+  }
+
+  &__file {
+    grid-column: span 2;
+    width: 100%;
+    background-color: white;
+  }
+}
